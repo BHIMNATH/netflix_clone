@@ -397,7 +397,7 @@ class _PreviewSection extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 18),
               scrollDirection: Axis.horizontal,
               itemCount: previewMovies.length,
-              separatorBuilder: (_, __) {
+              separatorBuilder: (context, index) {
                 return const SizedBox(width: 16);
               },
               itemBuilder: (context, index) {
@@ -478,7 +478,7 @@ class _MovieSection extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               physics: const BouncingScrollPhysics(),
               itemCount: movies.length,
-              separatorBuilder: (_, __) {
+              separatorBuilder: (context, index) {
                 return const SizedBox(width: 10);
               },
               itemBuilder: (context, index) {
