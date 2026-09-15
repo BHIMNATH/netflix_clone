@@ -141,7 +141,3 @@ Disclaimer
 This project was created for a machine test / educational purpose. Movie data and images are provided by TMDB. This project is not affiliated with or endorsed by Netflix.
 
 
-### I would use this one
-
-It is **shorter, natural, and believable**. It explains the important engineering decisions without sounding like you're trying to impress the reviewer with unnecessary terminology.
-
